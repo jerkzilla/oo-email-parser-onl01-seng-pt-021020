@@ -15,8 +15,8 @@ class EmailParser
 
   def parse
     csv_emails.split(',',' ')
-    binding.pry
   end
+    binding.pry
 
 
 end
