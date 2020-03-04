@@ -12,9 +12,10 @@ class EmailParser
 
 
   end
-binding.pry
-  def parse
 
+  def parse
+    csv_emails.split(',',' ')
+    binding.pry
   end
 
 
